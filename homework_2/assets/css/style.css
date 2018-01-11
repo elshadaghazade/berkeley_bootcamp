@@ -1,0 +1,133 @@
+body {
+	font-family: Arial;
+	font-size: 12px;
+}
+.clearfix {
+	clear: both;
+	float:none;
+}
+.container {
+	width: 1000px;
+	box-sizing: border-box;
+	position: relative;
+	margin: 0 auto;
+}
+
+/********************* header part ************************/
+.logo {
+	padding: 20px;
+	width: 200px;
+	height: 60px;
+	background-color: #4AAAA5;
+	color: #fff;
+	text-align: center;
+	font-size: 2.4em;
+	font-weight: bold;
+	line-height: 1.2em;
+	float: left;
+}
+.main-menu-wrapper {
+	float: right;
+}
+.main-menu-wrapper ul {
+	position: relative;
+	top: 40px;
+}
+.main-menu-wrapper ul li {
+	display: inline-block;
+}
+.main-menu-wrapper ul li + li {
+	margin-left: 20px;
+}
+.main-menu-wrapper ul li + li:before {
+	content: "|";
+	color: #efefef;
+	font-size: 1.4em;
+	margin-right: 20px;
+}
+.main-menu-wrapper ul li a {
+	font-size: 1.6em;
+	text-decoration: none;
+	color: #aaa;
+}
+.main-menu-wrapper ul li a:hover {
+	text-decoration: underline;
+}
+header {
+	width: 100%;
+}
+/********************* end of header part *************************/
+
+/*************************** body part ************************/
+.body {
+	background: url(https://i.ytimg.com/vi/-nOpuwYHu8k/hqdefault.jpg) left top repeat;
+	position: relative;
+	width: 100%;
+	box-shadow: inset 0px 2px 2px #aaa;
+	padding: 40px;
+	box-sizing: border-box;
+}
+
+.section {
+	background: #fff;
+	box-shadow: 0px 0px 2px #aaa;
+	padding: 40px 20px;
+	float: left;
+	box-sizing: border-box;
+}
+.section + .section {
+	margin-left: 5%;
+}
+.left-section {
+	width: 70%;
+}
+.right-section {
+	width: 25%;
+	height: 200px;
+}
+
+h1 {
+	color: #4AAAA5;
+	font-size: 2em;
+	font-weight: bold;
+}
+hr {
+	border: none;
+	border-bottom: 3px solid #eee;
+	border-right: 5px;
+	margin: 20px 0;
+}
+.my-photo {
+	width: 200;
+	height: 200px;
+	margin: 0 20px 20px 0;
+	float: left;
+}
+p {
+	font-size: 1.2em;
+	line-height: 1.6em;
+	color: #666;
+	text-align: justify;
+}
+
+.social li {
+	display: inline-block;
+}
+.social li + li {
+	margin-left: 11px;
+}
+.social li img {
+	width: 60px;
+	height: 60px;
+}
+footer {
+	background: #666666;
+	border-top: 5px solid #4AAAA5;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 20px;
+	text-align: center;
+	color: #fff;
+	font-size: 1.2em;
+}
+/*************************** end of body part ************************/
